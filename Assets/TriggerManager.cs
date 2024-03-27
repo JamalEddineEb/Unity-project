@@ -3,6 +3,8 @@ using UnityEngine;
 public class TriggerManager : MonoBehaviour
 {
    public List<Checkpoint> checkpoints;
+   
+   public UIManager uiManager;
 
    void Start()
    {
@@ -27,6 +29,8 @@ public class TriggerManager : MonoBehaviour
        if (checkpoints.Contains(checkpoint))
        {
             Debug.Log("checkpoint " + checkpoint.checkpointID);
+            uiManager.UpdateText("Checkpoint " + checkpoint.checkpointID);
+            
        }
    }
 }
