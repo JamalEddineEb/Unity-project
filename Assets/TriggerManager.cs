@@ -5,11 +5,14 @@ public class TriggerManager : MonoBehaviour
    public List<Checkpoint> checkpoints;
    
    public UIManager uiManager;
+   public Canvas checkpointCanvas;
+   
 
    void Start()
    {
         Debug.Log("Start");
         ListenCheckpoints(true);
+        checkpointCanvas.enabled = false;
    }
 
    private void ListenCheckpoints(bool subscribe)
@@ -29,6 +32,7 @@ public class TriggerManager : MonoBehaviour
        if (checkpoints.Contains(checkpoint))
        {
             Debug.Log("checkpoint " + checkpoint.checkpointID);
+            checkpointCanvas.enabled = true;
             uiManager.UpdateText("Checkpoint " + checkpoint.checkpointID);
             
        }

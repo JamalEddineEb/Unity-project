@@ -242,6 +242,7 @@ MonoBehaviour:
   - {fileID: 852907681}
   - {fileID: 658792125}
   uiManager: {fileID: 745573685}
+  checkpointCanvas: {fileID: 1559755102}
 --- !u!4 &240693226
 Transform:
   m_ObjectHideFlags: 0
@@ -323,8 +324,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399801859}
-  m_LocalRotation: {x: 0.22966771, y: -0.026495595, z: 0.00625476, w: 0.9728883}
-  m_LocalPosition: {x: -7.953562, y: 16.342136, z: -40.477753}
+  m_LocalRotation: {x: 0.22966775, y: -0.026495552, z: 0.0062547512, w: 0.9728883}
+  m_LocalPosition: {x: -7.9535627, y: 16.342134, z: -40.477753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1599,8 +1600,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.22966771, y: -0.026495595, z: 0.00625476, w: 0.9728883}
-  m_LocalPosition: {x: -7.953562, y: 16.342136, z: -40.477753}
+  m_LocalRotation: {x: 0.22966775, y: -0.026495552, z: 0.0062547512, w: 0.9728883}
+  m_LocalPosition: {x: -7.9535627, y: 16.342134, z: -40.477753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
