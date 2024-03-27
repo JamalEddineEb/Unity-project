@@ -243,6 +243,7 @@ MonoBehaviour:
   - {fileID: 658792125}
   uiManager: {fileID: 745573685}
   checkpointCanvas: {fileID: 1559755102}
+  closeButton: {fileID: 463538178}
 --- !u!4 &240693226
 Transform:
   m_ObjectHideFlags: 0
@@ -324,8 +325,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399801859}
-  m_LocalRotation: {x: 0.22966775, y: -0.026495552, z: 0.0062547512, w: 0.9728883}
-  m_LocalPosition: {x: -7.9535627, y: 16.342134, z: -40.477753}
+  m_LocalRotation: {x: 0.22966772, y: -0.026495604, z: 0.006254763, w: 0.9728883}
+  m_LocalPosition: {x: -7.9535604, y: 16.342136, z: -40.477753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -368,7 +369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -123.61, y: 0}
+  m_AnchoredPosition: {x: -153, y: 0}
   m_SizeDelta: {x: 247.22, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439980770
@@ -1600,8 +1601,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.22966775, y: -0.026495552, z: 0.0062547512, w: 0.9728883}
-  m_LocalPosition: {x: -7.9535627, y: 16.342134, z: -40.477753}
+  m_LocalRotation: {x: 0.22966772, y: -0.026495604, z: 0.006254763, w: 0.9728883}
+  m_LocalPosition: {x: -7.9535604, y: 16.342136, z: -40.477753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1763,8 +1764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 150}
+  m_AnchoredPosition: {x: 20, y: 0}
+  m_SizeDelta: {x: 50, y: 150}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1234845636
 MonoBehaviour:
@@ -1896,7 +1897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: CLOSE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
