@@ -1,3 +1,17 @@
+# Unity specific
+Library/
+Temp/
+Logs/
+MemoryCaptures/
+obj/
+UserSettings/
+.vs/
+SwitchIL2CPPCache/
+SwitchIL2CPPStats/
+
+# Visual Studio files
+*.csproj
+*.sln
 # Default ignored files
 /shelf/
 /workspace.xml
