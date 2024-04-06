@@ -10,12 +10,16 @@ public class TriggerManager : MonoBehaviour
    public Button closeButton;
    public Animator turtleAnimator;
    
+   public Animator freeKickMachineAnimation;
+   
+   
 
    void Start()
    {
         Debug.Log("Start");
         ListenCheckpoints(true);
         checkpointCanvas.enabled = false;
+        freeKickMachineAnimation.SetBool("animate", false);
         if (closeButton != null)
         {
             closeButton.onClick.AddListener(HideCanvas);
@@ -51,6 +55,13 @@ public class TriggerManager : MonoBehaviour
             if(checkpoint.checkpointID.Equals("turtle")){
                 turtleAnimator.SetBool("animate", true);
                 Debug.Log("turtle animated");
+            }
+
+            if (checkpoint.checkpointID.Equals("freeKickMachine"))
+            {
+                freeKickMachineAnimation.SetBool("animate", true);
+                Debug.Log("freeKickMachine animated");
+                
             }
             
        }
