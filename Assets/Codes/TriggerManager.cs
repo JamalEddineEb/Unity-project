@@ -21,7 +21,6 @@ public class TriggerManager : MonoBehaviour
         Debug.Log("Start");
         ListenCheckpoints(true);
         checkpointCanvas.enabled = false;
-        freeKickMachineAnimation.SetBool("animate", false);
         if (closeButton != null)
         {
             closeButton.onClick.AddListener(HideCanvas);
