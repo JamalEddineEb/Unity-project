@@ -1590,11 +1590,11 @@ Transform:
   m_LocalRotation: {x: 0.22966772, y: -0.026495552, z: 0.006254751, w: 0.9728883}
   m_LocalPosition: {x: -7.9535623, y: 16.342134, z: -40.477753}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 26.565, y: -3.42, z: 0}
+  m_LocalEulerAnglesHint: {x: 26.7, y: -3.12, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1936,15 +1936,15 @@ Canvas:
   m_GameObject: {fileID: 1559755099}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 569996998}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2277,7 +2277,7 @@ GameObject:
   - component: {fileID: 1689512590}
   - component: {fileID: 1689512589}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: turtle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
