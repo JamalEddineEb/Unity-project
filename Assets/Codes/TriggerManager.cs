@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class TriggerManager : MonoBehaviour
 {
    public List<Checkpoint> checkpoints;
@@ -49,9 +50,9 @@ public class TriggerManager : MonoBehaviour
    
    void CarButtonClicked()
    {
-       // Add functionality for when the new button is clicked
-       Debug.Log("Car Button Clicked");
-       // You can add additional actions here if needed
+       Debug.Log("Car Button Clicked and we move to planet 2");
+       SceneManager.LoadScene("PrincessFile");
+       
    }
 
    public void CheckpointActivated(GameObject princesse, Checkpoint checkpoint)
@@ -93,6 +94,8 @@ public class TriggerManager : MonoBehaviour
                 uiManager.UpdateText(
                     "Cars and races, a fusion of adrenaline and engineering mastery, epitomize the pinnacle of speed and skill. They ignite our senses, propelling us into a world where split-second decisions define victory or defeat.\nThe Group");
                 raceButton.gameObject.SetActive(true);
+                raceButton.onClick.AddListener(CarButtonClicked);
+
             }
             
        }
