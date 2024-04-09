@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     public AIControls[] aiControls;
     public LapManager lapTracker;
     public TricolorLights tricolorLights;
+    public Canvas checkpointCanvas;
 
     // New audio references
     public AudioSource audioSource;
