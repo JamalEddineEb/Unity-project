@@ -51,7 +51,7 @@ public class TriggerManager : MonoBehaviour
    void CarButtonClicked()
    {
        Debug.Log("Car Button Clicked and we move to planet 2");
-       SceneManager.LoadScene("PrincessFile");
+       SceneManager.LoadScene("DemoScene");
        
    }
 
