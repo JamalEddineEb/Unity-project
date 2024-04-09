@@ -65,7 +65,7 @@ public class TriggerManager : MonoBehaviour
                 turtleAnimator.SetBool("animate", true);
                 checkpointCanvas.enabled = true;
                 uiManager.UpdateText(
-                    "Turtles, gentle wanderers of the wild, embody the harmony of nature's rhythm. Their slow, deliberate movements echo the tranquil cadence of the natural world.\nJamal Eddine El Betoui");
+                    "Turtles, gentle wanderers of the wild, embody the harmony of nature's rhythm. Their slow, deliberate movements echo the tranquil cadence of the natural world.\nJamal Eddine El Betioui");
                 Debug.Log("turtle animated");
             }
 
