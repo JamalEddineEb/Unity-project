@@ -86,12 +86,15 @@ public class LapManager : MonoBehaviour
 
                     if (player == mainPlayerRank) onPlayerFinished.Invoke();
                 }
+                if(player.identity.gameObject.tag == "Player" && player.lapNumber == 2)
+                {
+                    SceneManager.LoadScene("Planet3.1");
+                }
                 else
                 {
                     // TODO : create attribute divername in CarIdentity 
                     //Debug.Log(player.identity.driverName + ": lap " + player.lapNumber);
                     if (car.gameObject.tag == "Player") ui.UpdateText("Lap " + player.lapNumber + " / " + totalLaps);
-                    SceneManager.LoadScene("Planet3.1");
                 }
             }
             // next checkpoint reached
