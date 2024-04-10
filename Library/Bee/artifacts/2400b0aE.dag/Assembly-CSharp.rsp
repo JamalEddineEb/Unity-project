@@ -369,6 +369,7 @@
 "Assets/FillLightOnOff.cs"
 "Assets/FollowPlayer.cs"
 "Assets/GameManager.cs"
+"Assets/Hover.cs"
 "Assets/KeyLightOnOff.cs"
 "Assets/LapManager.cs"
 "Assets/MenuManager.cs"
