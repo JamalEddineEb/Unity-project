@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/POLYGON city pack/scene/DemoScene.unity
     guid: 7759de288f5d4ee449a0ca5e2244944a
+  - enabled: 1
+    path: Assets/Scenes/Planet3.1.unity
+    guid: 1bd151f3c5b6d4b37a2dd4480a3d2218
   m_configObjects: {}

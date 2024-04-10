@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class LapManager : MonoBehaviour
 {
@@ -90,6 +91,7 @@ public class LapManager : MonoBehaviour
                     // TODO : create attribute divername in CarIdentity 
                     //Debug.Log(player.identity.driverName + ": lap " + player.lapNumber);
                     if (car.gameObject.tag == "Player") ui.UpdateText("Lap " + player.lapNumber + " / " + totalLaps);
+                    SceneManager.LoadScene("Planet3.1");
                 }
             }
             // next checkpoint reached

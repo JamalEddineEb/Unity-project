@@ -52,7 +52,6 @@ public class TriggerManager : MonoBehaviour
    {
        Debug.Log("Car Button Clicked and we move to planet 2");
        SceneManager.LoadScene("DemoScene");
-       
    }
 
    public void CheckpointActivated(GameObject princesse, Checkpoint checkpoint)
