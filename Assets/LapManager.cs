@@ -86,7 +86,7 @@ public class LapManager : MonoBehaviour
 
                     if (player == mainPlayerRank) onPlayerFinished.Invoke();
                 }
-                if(player.identity.gameObject.tag == "Player" && player.lapNumber == 2)
+                if(player.identity.gameObject.tag == "Player" && player.hasFinished)
                 {
                     SceneManager.LoadScene("Planet3.1");
                 }
